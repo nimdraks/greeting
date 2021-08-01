@@ -39,7 +39,7 @@ func Hellos(names []string) (map[string]string, error) {
 
 // Init sets initial values for variables used in the function.
 func init() {
-    fmt.Println("v1.0.1 relasesed")
+    fmt.Println("v2.0.0 relasesed - multi")
     rand.Seed(time.Now().UnixNano())
 }
 
